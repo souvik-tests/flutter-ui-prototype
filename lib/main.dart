@@ -44,61 +44,61 @@ class MyHomePage extends StatelessWidget {
                   width: MediaQuery.of(context).size.width,
                   height: 30,
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      // menu btn
-                      Container(
-                        height: 30,
-                        width: 30,
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
-                          shape: BoxShape.circle,
-                        ),
-                        child: Center(
-                          child: Icon(
-                            Icons.menu,
-                            color: Colors.white,
-                            size: 18.0,
-                          ),
-                        ),
-                      ),
-                      // account area
-                      Container(
-                        height: 30,
-                        child: Row(
-                          children: <Widget>[
-                            // message icon
-                            Icon(
-                              Icons.email_rounded,
-                              size: 30,
-                            ),
-                            SizedBox(
-                              width: 10,
-                            ),
-                            // notification icon
-                            Icon(
-                              Icons.notifications,
-                              size: 30,
-                            ),
-                            SizedBox(
-                              width: 10,
-                            ),
-                            // user image
-                            Container(
-                              height: 30,
-                              width: 30,
-                              decoration: BoxDecoration(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget> [
+                          // menu btn
+                          Container(
+                            height: 30,
+                            width: 30,
+                            decoration: BoxDecoration(
+                                color: Colors.blue,
                                 shape: BoxShape.circle,
-                                image: DecorationImage(
-                                  image: NetworkImage('https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'),
-                                  fit: BoxFit.cover,
-                                ),
-                              ),
                             ),
-                          ],
+                            child: Center(
+                                child: Icon(
+                                Icons.menu,
+                                color: Colors.white,
+                                size: 18.0,
+                                ),
+                            ),
                         ),
-                      ),
-                    ],
+                        // account area
+                        Container(
+                            height: 30,
+                            child: Row(
+                                children: <Widget> [
+                                    // message icon
+                                    Icon(
+                                        Icons.email_rounded,
+                                        size: 30,
+                                    ),
+                                    SizedBox(
+                                        width: 10,
+                                    ),
+                                    // notification icon
+                                    Icon(
+                                        Icons.notifications,
+                                        size: 30,
+                                    ),
+                                    SizedBox(
+                                        width: 10,
+                                    ),
+                                    // user image
+                                    Container(
+                                        height: 30,
+                                        width: 30,
+                                        decoration: BoxDecoration(
+                                            shape: BoxShape.circle,
+                                            image: DecorationImage(
+                                                image: NetworkImage('https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'),
+                                                fit: BoxFit.cover,
+                                            ),
+                                        ),
+                                    ),
+                                ],
+                            ),
+                        ),
+                      ],
                   ),
                 ),
                 SizedBox(
@@ -855,179 +855,179 @@ class MyHomePage extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  height: 15,
+                    height: 15,
                 ),
                 // category horizontal scroll mini
                 Container(
-                  height: 40,
-                  width: MediaQuery.of(context).size.width,
-                  child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    children: <Widget>[
-                      // mini category 1
-                      Container(
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        height: 30,
-                        child: Padding(
-                          padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
-                          child: Center(
-                            child: Text(
-                              "Business",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                              ),
+                    height: 40,
+                    width: MediaQuery.of(context).size.width,
+                    child: ListView(
+                        scrollDirection: Axis.horizontal,
+                        children: <Widget> [
+                            // mini category 1
+                            Container(
+                                decoration: BoxDecoration(
+                                    color: Colors.blue,
+                                    borderRadius: BorderRadius.circular(50),
+                                ),
+                                height: 30,
+                                    child: Padding(
+                                        padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
+                                        child: Center(
+                                            child: Text(
+                                            "Business",
+                                            textAlign: TextAlign.center,
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.white,
+                                            ),
+                                            ),
+                                        ),
+                                    ),
                             ),
-                          ),
-                        ),
-                      ),
-                      // mini category 2
-                      Container(
-                        margin: EdgeInsets.only(left: 10),
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        height: 30,
-                        child: Padding(
-                          padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
-                          child: Center(
-                            child: Text(
-                              "Stock Market",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                              ),
+                            // mini category 2
+                            Container(
+                                margin: EdgeInsets.only(left: 10),
+                                decoration: BoxDecoration(
+                                    color: Colors.blue,
+                                    borderRadius: BorderRadius.circular(50),
+                                ),
+                                height: 30,
+                                    child: Padding(
+                                        padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
+                                        child: Center(
+                                            child: Text(
+                                            "Stock Market",
+                                            textAlign: TextAlign.center,
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.white,
+                                            ),
+                                            ),
+                                        ),
+                                    ),
                             ),
-                          ),
-                        ),
-                      ),
-                      // mini category 3
-                      Container(
-                        margin: EdgeInsets.only(left: 10),
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        height: 30,
-                        child: Padding(
-                          padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
-                          child: Center(
-                            child: Text(
-                              "Finance",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                              ),
+                            // mini category 3
+                            Container(
+                                margin: EdgeInsets.only(left: 10),
+                                decoration: BoxDecoration(
+                                    color: Colors.blue,
+                                    borderRadius: BorderRadius.circular(50),
+                                ),
+                                height: 30,
+                                    child: Padding(
+                                        padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
+                                        child: Center(
+                                            child: Text(
+                                            "Finance",
+                                            textAlign: TextAlign.center,
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.white,
+                                            ),
+                                            ),
+                                        ),
+                                    ),
                             ),
-                          ),
-                        ),
-                      ),
-                      // mini category 4
-                      Container(
-                        margin: EdgeInsets.only(left: 10),
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        height: 30,
-                        child: Padding(
-                          padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
-                          child: Center(
-                            child: Text(
-                              "Mutual Funds",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                              ),
+                            // mini category 4
+                            Container(
+                                margin: EdgeInsets.only(left: 10),
+                                decoration: BoxDecoration(
+                                    color: Colors.blue,
+                                    borderRadius: BorderRadius.circular(50),
+                                ),
+                                height: 30,
+                                    child: Padding(
+                                        padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
+                                        child: Center(
+                                            child: Text(
+                                            "Mutual Funds",
+                                            textAlign: TextAlign.center,
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.white,
+                                            ),
+                                            ),
+                                        ),
+                                    ),
                             ),
-                          ),
-                        ),
-                      ),
-                      // mini category 5
-                      Container(
-                        margin: EdgeInsets.only(left: 10),
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        height: 30,
-                        child: Padding(
-                          padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
-                          child: Center(
-                            child: Text(
-                              "Earnings Per Share",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                              ),
+                            // mini category 5
+                            Container(
+                                margin: EdgeInsets.only(left: 10),
+                                decoration: BoxDecoration(
+                                    color: Colors.blue,
+                                    borderRadius: BorderRadius.circular(50),
+                                ),
+                                height: 30,
+                                    child: Padding(
+                                        padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
+                                        child: Center(
+                                            child: Text(
+                                            "Earnings Per Share",
+                                            textAlign: TextAlign.center,
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.white,
+                                            ),
+                                            ),
+                                        ),
+                                    ),
                             ),
-                          ),
-                        ),
-                      ),
-                      // mini category 6
-                      Container(
-                        margin: EdgeInsets.only(left: 10),
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        height: 30,
-                        child: Padding(
-                          padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
-                          child: Center(
-                            child: Text(
-                              "Tutorials",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                              ),
+                            // mini category 6
+                            Container(
+                                margin: EdgeInsets.only(left: 10),
+                                decoration: BoxDecoration(
+                                    color: Colors.blue,
+                                    borderRadius: BorderRadius.circular(50),
+                                ),
+                                height: 30,
+                                    child: Padding(
+                                        padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
+                                        child: Center(
+                                            child: Text(
+                                            "Tutorials",
+                                            textAlign: TextAlign.center,
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.white,
+                                            ),
+                                            ),
+                                        ),
+                                    ),
                             ),
-                          ),
-                        ),
-                      ),
-                      // mini category 7 all
-                      Container(
-                        margin: EdgeInsets.only(left: 10),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        height: 30,
-                        child: Padding(
-                          padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
-                          child: Center(
-                            child: Text(
-                              "SEE ALL",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.blue,
-                              ),
+                            // mini category 7 all
+                            Container(
+                                margin: EdgeInsets.only(left: 10),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(50),
+                                ),
+                                height: 30,
+                                    child: Padding(
+                                        padding: EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
+                                        child: Center(
+                                            child: Text(
+                                            "SEE ALL",
+                                            textAlign: TextAlign.center,
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.blue,
+                                            ),
+                                            ),
+                                        ),
+                                    ),
                             ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
+                        ],
+                    ),
                 ),
                 SizedBox(
-                  height: 15,
+                    height: 15,
                 ),
                 // Course text section
                 Container(
@@ -1054,216 +1054,216 @@ class MyHomePage extends StatelessWidget {
                   width: MediaQuery.of(context).size.width,
                 ),
                 SizedBox(
-                  height: 10,
+                    height: 10,
                 ),
                 // course area
                 Container(
-                  width: MediaQuery.of(context).size.width,
-                  height: 110,
-                  child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    children: <Widget>[
-                      // course number 1
-                      Container(
-                        height: 110,
-                        width: 150,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            width: 0.5,
-                            color: Colors.grey,
-                          ),
-                        ),
-                        child: Column(
-                          children: <Widget>[
-                            Expanded(
-                              child: Container(
+                    width: MediaQuery.of(context).size.width,
+                    height: 110,
+                    child: ListView(
+                        scrollDirection: Axis.horizontal,
+                        children: <Widget> [
+                            // course number 1
+                            Container(
+                                height: 110,
                                 width: 150,
                                 decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                    image: NetworkImage('https://images.unsplash.com/photo-1579227114347-15d08fc37cae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'),
-                                    fit: BoxFit.cover,
-                                  ),
+                                    border: Border.all(
+                                        width: 0.5,
+                                        color: Colors.grey,
+                                    ),
                                 ),
-                              ),
+                                child: Column(
+                                    children: <Widget> [
+                                        Expanded(
+                                            child: Container(
+                                                width: 150,
+                                                decoration: BoxDecoration(
+                                                    image: DecorationImage(
+                                                        image: NetworkImage('https://images.unsplash.com/photo-1579227114347-15d08fc37cae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'),
+                                                        fit: BoxFit.cover,
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                        Container(
+                                            height: 35,
+                                            width: 150,
+                                            child: Center(
+                                                child: Text(
+                                                    "Funding",
+                                                    style: TextStyle(
+                                                        fontSize: 16,
+                                                        fontWeight: FontWeight.bold,
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                    ],
+                                ),
                             ),
+                            // course number 2
                             Container(
-                              height: 35,
-                              width: 150,
-                              child: Center(
-                                child: Text(
-                                  "Funding",
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      // course number 2
-                      Container(
-                        margin: EdgeInsets.only(left: 15),
-                        height: 110,
-                        width: 150,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            width: 0.5,
-                            color: Colors.grey,
-                          ),
-                        ),
-                        child: Column(
-                          children: <Widget>[
-                            Expanded(
-                              child: Container(
+                                margin: EdgeInsets.only(left: 15),
+                                height: 110,
                                 width: 150,
                                 decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                    image: NetworkImage('https://images.unsplash.com/photo-1520695082671-948f2937d752?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'),
-                                    fit: BoxFit.cover,
-                                  ),
+                                    border: Border.all(
+                                        width: 0.5,
+                                        color: Colors.grey,
+                                    ),
                                 ),
-                              ),
+                                child: Column(
+                                    children: <Widget> [
+                                        Expanded(
+                                            child: Container(
+                                                width: 150,
+                                                decoration: BoxDecoration(
+                                                    image: DecorationImage(
+                                                        image: NetworkImage('https://images.unsplash.com/photo-1520695082671-948f2937d752?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'),
+                                                        fit: BoxFit.cover,
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                        Container(
+                                            height: 35,
+                                            width: 150,
+                                            child: Center(
+                                                child: Text(
+                                                    "Mutual Funds",
+                                                    style: TextStyle(
+                                                        fontSize: 16,
+                                                        fontWeight: FontWeight.bold,
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                    ],
+                                ),
                             ),
+                            // course number 3
                             Container(
-                              height: 35,
-                              width: 150,
-                              child: Center(
-                                child: Text(
-                                  "Mutual Funds",
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      // course number 3
-                      Container(
-                        margin: EdgeInsets.only(left: 15),
-                        height: 110,
-                        width: 150,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            width: 0.5,
-                            color: Colors.grey,
-                          ),
-                        ),
-                        child: Column(
-                          children: <Widget>[
-                            Expanded(
-                              child: Container(
+                                margin: EdgeInsets.only(left: 15),
+                                height: 110,
                                 width: 150,
                                 decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                    image: NetworkImage('https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80'),
-                                    fit: BoxFit.cover,
-                                  ),
+                                    border: Border.all(
+                                        width: 0.5,
+                                        color: Colors.grey,
+                                    ),
                                 ),
-                              ),
+                                child: Column(
+                                    children: <Widget> [
+                                        Expanded(
+                                            child: Container(
+                                                width: 150,
+                                                decoration: BoxDecoration(
+                                                    image: DecorationImage(
+                                                        image: NetworkImage('https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80'),
+                                                        fit: BoxFit.cover,
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                        Container(
+                                            height: 35,
+                                            width: 150,
+                                            child: Center(
+                                                child: Text(
+                                                    "Personal Finance",
+                                                    style: TextStyle(
+                                                        fontSize: 16,
+                                                        fontWeight: FontWeight.bold,
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                    ],
+                                ),
                             ),
+                            // course number 4
                             Container(
-                              height: 35,
-                              width: 150,
-                              child: Center(
-                                child: Text(
-                                  "Personal Finance",
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      // course number 4
-                      Container(
-                        margin: EdgeInsets.only(left: 15),
-                        height: 110,
-                        width: 150,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            width: 0.5,
-                            color: Colors.grey,
-                          ),
-                        ),
-                        child: Column(
-                          children: <Widget>[
-                            Expanded(
-                              child: Container(
+                                margin: EdgeInsets.only(left: 15),
+                                height: 110,
                                 width: 150,
                                 decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                    image: NetworkImage('https://images.unsplash.com/photo-1559526324-593bc073d938?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'),
-                                    fit: BoxFit.cover,
-                                  ),
+                                    border: Border.all(
+                                        width: 0.5,
+                                        color: Colors.grey,
+                                    ),
                                 ),
-                              ),
+                                child: Column(
+                                    children: <Widget> [
+                                        Expanded(
+                                            child: Container(
+                                                width: 150,
+                                                decoration: BoxDecoration(
+                                                    image: DecorationImage(
+                                                        image: NetworkImage('https://images.unsplash.com/photo-1559526324-593bc073d938?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'),
+                                                        fit: BoxFit.cover,
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                        Container(
+                                            height: 35,
+                                            width: 150,
+                                            child: Center(
+                                                child: Text(
+                                                    "Trading",
+                                                    style: TextStyle(
+                                                        fontSize: 16,
+                                                        fontWeight: FontWeight.bold,
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                    ],
+                                ),
                             ),
+                            // course number 5
                             Container(
-                              height: 35,
-                              width: 150,
-                              child: Center(
-                                child: Text(
-                                  "Trading",
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      // course number 5
-                      Container(
-                        margin: EdgeInsets.only(left: 15),
-                        height: 110,
-                        width: 150,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            width: 0.5,
-                            color: Colors.grey,
-                          ),
-                        ),
-                        child: Column(
-                          children: <Widget>[
-                            Expanded(
-                              child: Container(
+                                margin: EdgeInsets.only(left: 15),
+                                height: 110,
                                 width: 150,
                                 decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                    image: NetworkImage('https://images.unsplash.com/flagged/photo-1554386690-ddcab0b98d1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=836&q=80'),
-                                    fit: BoxFit.cover,
-                                  ),
+                                    border: Border.all(
+                                        width: 0.5,
+                                        color: Colors.grey,
+                                    ),
                                 ),
-                              ),
-                            ),
-                            Container(
-                              height: 35,
-                              width: 150,
-                              child: Center(
-                                child: Text(
-                                  "Cryptocurrency",
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.bold,
-                                  ),
+                                child: Column(
+                                    children: <Widget> [
+                                        Expanded(
+                                            child: Container(
+                                                width: 150,
+                                                decoration: BoxDecoration(
+                                                    image: DecorationImage(
+                                                        image: NetworkImage('https://images.unsplash.com/flagged/photo-1554386690-ddcab0b98d1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=836&q=80'),
+                                                        fit: BoxFit.cover,
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                        Container(
+                                            height: 35,
+                                            width: 150,
+                                            child: Center(
+                                                child: Text(
+                                                    "Cryptocurrency",
+                                                    style: TextStyle(
+                                                        fontSize: 16,
+                                                        fontWeight: FontWeight.bold,
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                    ],
                                 ),
-                              ),
                             ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
+                        ],
+                    ),
                 ),
               ],
             ),
